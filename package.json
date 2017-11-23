@@ -1,0 +1,29 @@
+{
+  "name": "tgcrud",
+  "version": "1.0.0",
+  "description": "Generic CRUD for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./public/build",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizFelipeh/tgcrud.git"
+  },
+  "author": "Luiz Felipeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizFelipeh/tgcrud/issues"
+  },
+  "homepage": "https://github.com/LuizFelipeh/tgcrud#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {}
+}
